@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header img {
+    filter: invert(1);
+    width: 150px;
+}
+
+
+header {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: white solid 1px;
+}
+
+header .nav1 a{
+    color: white;
+    padding-left: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+
+}
+
+header .nav1 a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 20px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: bolder;
+}
+
+header button:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+}
+
+.nos {
+    display: flex;
+}
+
+.nos .titulo {
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.nos .text {
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+    line-height: 25px;
+}
+
+.nos .robo {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.nos .robo img {
+    border-radius: 30px;
+    width: 500px;
+}
+
+
+.como .titulo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.como .text {
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+    line-height: 25px;
+}
+
+.como {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.comprar {
+    display: flex;
+}
+
+.comprar .titulo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.comprar .text {
+    color: white;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 20px;
+    line-height: 25px;
+    padding-bottom: 50px;
+}
+
+.comprar .robo2 {
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.comprar .robo2 img {
+    border-radius: 30px;
+    width: 400px;
+}
+
+.bt2 {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin: 50px auto;
+    display: block;
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.bt2:hover {
+    text-decoration: underline;
+}
+
+footer {
+    border-top: white solid 1px;
+    text-align: center;
+}
+
+footer .logo {
+    filter: invert(1);
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+footer .Copyright {
+    width: 15px;
+}
+
+footer .text {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+
+
+@media (max-width: 768px) {
+    header img {
+        width: 100px;
+    }
+    
+    header .nav1 a {
+        padding-left: 9px;
+    }
+
+    .nos .robo {
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 200px;
+    }
+
+    .nos .robo img {
+        border-radius: 30px;
+        width: 300px;
+        padding-top: 0;
+        padding-right: 0;
+    }
+
+    .comprar .robo2 {
+        padding-left: 100px;
+        padding-bottom: 50px;
+        padding-right: 50px;
+    }
+
+    .comprar .robo2 img {
+        border-radius: 30px;
+        width: 200px;
+    }
+}
